@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="MoodSlider.css">
+        <script type="text/javascript" src="js/jquery-3.1.1.js"></script> 
+        <script type="text/javascript" src="js/ContentUpdate.js"></script> 
+    </head>
+
+    <body onload=" Initialise()">
+        <!-- Wrapper Div to Center the entire Site  and the start of the main content including title and logo--> 
+        <div class="Wrapper">
+            <div class =" Header">
+                 <div class =" Logo">
+                    <a href="index.html">
+                        <img src="" width="150" height="150" alt="Company Logo Goes Here"/>
+                    </a>
+                </div>
+                <div class =" Boxed">
+                    <h1> Moodslider </h1> 
+                </div>
+            </div>
+            <div class =  "Boxed2">
+                <h3><a href="UploadFacility.html">Moodslider | Upload Content</a>    </h3> 
+            </div>
+            <!-- Title, Logo and Content Upload Alignment ends here --> 
+
+            <!-- Table encapsulated into a Form for easier position of the elements on the webpage   -->
+            <form name="Mood Input Form" action="Response.jsp">
+                <table class = "Alpha" style="width:100%" >
+                    <tr>
+                        <th></th>
+                        <th></th> 
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Calm</label>    
+                        </td>
+                        <td>
+                            <input  class = "Slider-Width" type="range" name="Slider1" id="Emotion1" value="50" min="0" max="100" onchange="loadXMLDoc()"  >
+                        </td> 
+                        <td>
+                            <label>Agitated</label>    
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Happy</label>    
+                        </td>
+                        <td>
+                            <input  class = "Slider-Width" type="range" name="Slider2" id="Emotion2" value="50" min="0" max="100"  onchange="loadXMLDoc()">
+                        </td> 
+                        <td>
+                            <label>Sad</label>    
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Wide Awake</label>    
+                        </td>
+                        <td>
+                            <input  class = "Slider-Width" type="range" name="Slider3" id="Emotion3" value="50" min="0" max="100"  onchange="loadXMLDoc()">
+                        </td> 
+                        <td>
+                            <label>Tired</label>    
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Fearless</label>    
+                        </td>
+                        <td>
+                            <input  class = "Slider-Width" type="range" name="Slider4" id="Emotion4" value="50" min="0" max="100" onchange="loadXMLDoc()" >
+                        </td> 
+                        <td>
+                            <label>Scared</label>    
+                        </td>
+                    </tr>
+                </table>
+            </form> 
+            <div id ="area"></div>
+            <table id="demo"></table>
+        </div>
+    </body>
+</html>

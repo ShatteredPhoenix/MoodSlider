@@ -1,0 +1,121 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13-Feb-2017, 17:18:20
+    Author     : Humza
+*/
+
+.Wrapper {
+    width:1000px;
+    height:1000px;
+    margin:0 auto;
+    background:white;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-500px;
+    margin-top:-500px;
+}
+.Wrapper2 {
+    width:1000px;
+    height:1000px;
+    margin:0 auto;
+    left:50%;
+    top:50%;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+.Header h1  {
+    text-align: center;
+    position: relative;
+    background: -webkit-linear-gradient(#b3dced, #bce0ee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-family: Century Gothic, sans-serif;
+}
+
+h3 {
+    text-align: left;
+    position: relative;
+    background: -webkit-linear-gradient(#b3dced, #bce0ee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-family: Century Gothic, sans-serif;
+    font-size: 21px;
+}
+
+.Logo {
+    /*Block Formatted as table to center for template.*/
+    display: table-cell;
+    text-align: center; 
+    vertical-align: middle; 
+
+    /*Box Size*/
+    width: 155px;
+    height: 150px; 
+
+    /*Standard box properties*/
+//    border: 1px solid blueviolet;
+    margin-left: auto;
+    margin-right: auto;
+    float: left; 
+}
+.Boxed {
+    width: auto;
+    height: 64px;
+    border: 2px solid blueviolet;
+    padding: 3px;
+    margin-left: 165px;
+    margin-right: 15px;
+    margin-top:  50px; 
+}
+.Boxed2 {
+    width: auto;
+    height: 45px; 
+    text-align: left;
+    border: 2px solid blueviolet;
+    padding: 3px;
+    margin-left: 165px;
+    margin-right: 15px;
+    margin-top: 20px; 
+}
+
+td {
+    text-align: center; 
+    text-wrap: normal;
+    border : 2px solid blueviolet;
+    border-collapse: collapse;
+    height: 150px;
+    width: 150px;
+}
+
+.Alpha td {
+    text-align: center; 
+    border: none;
+    height: 50px;  
+    width: 150px;
+}
+
+.CellSize2 {
+    height: 150px;  
+    width: 150px;
+    border: 2px solid blue; 
+}
+
+.CellSize3 {
+    height: 25px;  
+    width: 150px;
+    border: 2px solid blue; 
+}
+
+.Slider-Width {
+    width: 700px;
+    border: 1px solid blue; 
+}
